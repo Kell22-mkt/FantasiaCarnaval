@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://img1.picmix.com/output/stamp/normal/3/7/6/9/1699673_fc0c7.gif");
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 15vh;
+}
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+header h2 {
+  background: -webkit-linear-gradient(rgb(248, 39, 39), rgb(98, 206, 10));
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  padding: 5px;
+}
+header img {
+  width: 12vw;
+}
+nav {
+  width: 45vw;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+li {
+  font-size: 20px;
+  letter-spacing: 5px;
+  cursor: pointer;
+  font-family: "Lobster", sans-serif;
+  font-weight: 900;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.4s;
+}
+nav li:nth-child(1) {
+  color: rgb(9, 255, 0);
+  font-size: 30px;
+}
+nav li:nth-child(1):hover {
+  color: rgb(202, 7, 241);
+  font-size: 50px;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140vh;
+}
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  height: 130vh;
+}
+main section figure {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border: solid 2px;
+  border-radius: 20px;
+  width: 25vw;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.781);
+}
+figcaption {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+main section img {
+  width: 20vw;
+  height: 44vh;
+}
+button {
+  height: 2rem;
+  width: 4rem;
+  background-color: green;
+  color: white;
+}
+
+button:hover {
+  background-color: purple;
+}
